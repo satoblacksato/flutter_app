@@ -40,7 +40,7 @@ class _MyAlertState extends State<MyAlert> {
         )
       ],
     );
-    showDialog(context: context, child: dialog);
+    showDialog(context: context,  builder: (_) => dialog);
   }
 
   void _onChanged(String value){
